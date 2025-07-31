@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZIPIN - Home</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="homepage.css">
+
+</head>
+<body>
+  <header>
+    <div >
+        <img src="logo.png" id="logo">
+    </div>
+
+    <div class="search-container">
+      <input class="search-bar" type="text" placeholder="Search..." />
+      <i class="fas fa-search search-icon"></i>        <!--search icon-->
+    </div>
+
+    <div class="icons">
+      <button id="cart"><i class="fa-solid fa-cart-shopping"></i></button><!-- Cart Icon -->
+      <button id="menu"><span>&#9776;</span> </button>   <!-- Menu Icon -->
+    </div>
+  </header>
+
+  <!--categories section-->
+    
+  <div class="category-scroll-container">
+    <button class="scroll-btn left" onclick="scrollCategories(-200)">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+  
+    <div class="category-scroll-wrapper">
+      <!-- put ALL your category-item divs here -->
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="dress.png" alt="Dresses" />
+        </div>
+        <div class="category-label">Dresses</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="high-heels.png" alt="Footwear" />
+        </div>
+        <div class="category-label">Footwear</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="shopping-bag.png" alt="Bags" />
+        </div>
+        <div class="category-label">Bags</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="gadgets.png" alt="Gadgets" />
+        </div>
+        <div class="category-label">Gadgets</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="cosmetics.png" alt="Makeup" />
+        </div>
+        <div class="category-label">Makeup</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="necklace.png" alt="Jewelry" />
+        </div>
+        <div class="category-label">Jewelry</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="sofa.png" alt="Furniture" />
+        </div>
+        <div class="category-label">Furniture</div>
+      </div>
+      <!-- 2nd -->
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="tank-top.png" alt="Tops & Tees" />
+        </div>
+        <div class="category-label">Tops & Tees</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="jeans.png" alt="Jeans & Bottoms" />
+        </div>
+        <div class="category-label">Jeans & Bottoms</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="indian.png" alt="Ethnic Wear" />
+        </div>
+        <div class="category-label">Ethnic Wear</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="wristwatch.png" alt="Watches" />
+        </div>
+        <div class="category-label">Watches</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="sunglasses.png" alt="Sunglasses" />
+        </div>
+        <div class="category-label">Sunglasses</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="skin-care.png" alt="Skincare" />
+        </div>
+        <div class="category-label">Skincare</div>
+      </div>
+      <div class="category-item">
+        <div class="category-circle">
+          <img src="snowman.png" alt="Winterwea" />
+        </div>
+        <div class="category-label">Winterwear</div>
+      </div>
+    
+    <div class="category-item">
+      <div class="category-circle">
+        <img src="brooch.png" alt="Hair Accessories" />
+      </div>
+      <div class="category-label">Hair Accessories</div>
+    </div>
+    <div class="category-item">
+      <div class="category-circle">
+        <img src="headphones.png" alt="Headphones" />
+      </div>
+      <div class="category-label">Headphones</div>
+    </div>
+    <div class="category-item">
+      <div class="category-circle">
+        <img src="perfume.png" alt="Perfumes" />
+      </div>
+      <div class="category-label">Perfumes</div>
+    </div>
+    </div>
+  
+    <button class="scroll-btn right" onclick="scrollCategories(200)">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+  
+
+  <!--section 2 ---name & wht it does-->
+
+  <div class="container">
+
+    <video style="border-style:groove; border-color: black;height: 200px; width: 300px;">
+      <source src="">
+    </video>
+   
+      <div id="content">
+
+  <h1 id="brand">
+    Welcome to ZIPIN
+  </h1>
+  <p id="desc">
+    Discover a world where fashion meets function. ZIPIN is your one-stop destination for clothes, accessories, gadgets, and more — all curated for your everyday magic ✨
+  </p>
+
+  </div>
+
+  </div>
+
+  <!--section 3 offers-->
+
+  <div class="offer-banner-section">
+    <button class="arrow left" onclick="scrollOffer(-1)">&#10094;</button>
+  
+    <div class="offer-banner-wrapper" id="offerWrapper">
+      <div class="offer-banner">🔥 50% OFF on Dresses 🔥</div>
+      <div class="offer-banner">💼 Bags Under ₹399 💼</div>
+      <div class="offer-banner">🚚 Free Shipping for You</div>
+      <div class="offer-banner">✨ New Arrivals Just Dropped</div>
+      <div class="offer-banner">🕶️ Sunglasses from ₹149</div>
+    </div>
+  
+    <button class="arrow right" onclick="scrollOffer(1)">&#10095;</button>
+  </div>
+  
+  
+
+
+ <!--section 4 availabilities--> 
+
+<div class="cardcontainer">
+    <!-- Row 1 -->
+    <div class="card">
+      <img src="ethnic-wear.jpg" alt="Ethnic Wear">
+      <div class="card-title">Ethnic Wear</div>
+    </div>
+    <div class="card">
+      <img src="casual-wear.jpg" alt="Casual Wear">
+      <div class="card-title">Casual Wear</div>
+      <div class="card-offer">30-50% Off</div>
+    </div>
+    <div class="card">
+      <img src="active-wear.jpg" alt="Active Wear">
+      <div class="card-title">Active Wear</div>
+      <div class="arrow">&#8594;</div>
+    </div>
+    <!-- Row 2 -->
+    <div class="card">
+      <img src="western-wear.jpg" alt="Western Wear">
+      <div class="card-title">Western Wear</div>
+      <div class="card-offer">30-50% Off</div>
+    </div>
+    <div class="card">
+      <img src="mens-ethnic.jpg" alt="Mens Ethnic">
+      <div class="card-title">Mens Ethnic</div>
+      <div class="card-offer">30-50% Off</div>
+    </div>
+    <div class="card">
+      <img src="jewellery.jpg" alt="Jewelry">
+      <div class="card-title">Jewelry</div>
+      <div class="card-offer">30-50% Off</div>
+      <div class="arrow">&#8594;</div>
+    </div>
+  </div>
+
+    
+  
+
+    
+  
+
+
+
+<script src="homepage.js"></script>
+</body>
+</html>
